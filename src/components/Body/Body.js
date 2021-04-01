@@ -8,7 +8,9 @@ class Body extends React.Component {
 
     render() {
         return(
-            <div></div>
+            <div>
+                <p>Hello. My name is Tucker Barton.</p>
+            </div>
         )
     }
 }
