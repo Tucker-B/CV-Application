@@ -28,5 +28,8 @@ module.exports = {
     resolve: {
         extensions: ['.js', '.jsx']
     },
-    target: 'web'
+    target: 'web',
+    node = {
+        fs: 'empty',
+    }
 }
