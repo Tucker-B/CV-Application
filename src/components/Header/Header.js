@@ -12,7 +12,7 @@ class Header extends React.Component {
             <header id="header">
                 <h1>Tucker Barton</h1>
                 <span>
-                    <h3>Web Developer</h3>
+                    <h3 id="headerDescription">Web Developer & Language Learner</h3>
                     <NavBar />
                 </span>
             </header>

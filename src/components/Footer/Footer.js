@@ -9,7 +9,7 @@ class Footer extends React.Component {
     render() {
         return(
             <footer>
-                <p>This is the footer.</p>
+                <p id="footerParagraph">This is the footer.</p>
             </footer>
         )
     }

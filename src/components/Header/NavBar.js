@@ -13,7 +13,7 @@ class NavBar extends React.Component {
             <div id="navBar">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="#">Résumé</a></li>
                     <li><a href="https://github.com/Tucker-B ">GitHub</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>

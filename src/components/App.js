@@ -11,7 +11,7 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
+            <div id="mainDiv">
                 <Header />
                 <Body />
                 <Footer />
