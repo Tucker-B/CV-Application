@@ -26,12 +26,11 @@ module.exports = {
         })
     ],
     resolve: {
-        extensions: ['.js', '.jsx']
-    },
-    target: 'web',
-    resolve: {
+        mainFields: ['browser'],
+        extensions: ['.js', '.jsx'],
         fallback: {
             fs: false,
         }
     },
+    target: 'web',
 }
