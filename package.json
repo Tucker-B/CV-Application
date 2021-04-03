@@ -8,7 +8,8 @@
   },
   "scripts": {
     "heroku-prebuild": "npm install --dev",
-    "start": "webpack serve --mode development --open --hot",
+    "devStart": "webpack serve --mode development --open --hot",
+    "start": "PORT=8080 node start ./src/index.js",
     "build": "webpack --mode production"
   },
   "author": "Tucker Barton",
