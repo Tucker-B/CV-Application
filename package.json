@@ -35,5 +35,22 @@
     "style-loader": "^2.0.0",
     "webpack-cli": "^4.6.0",
     "webpack-dev-server": "^3.11.2"
-  }
+  },
+  "browser": {
+    "http": false,
+    "https":false,
+    "net": false,
+    "path": false,
+    "stream": false,
+    "tls": false,
+    "zlib": false,
+    "crypto": false,
+    "iconv-lite": false,
+    "qs": false,
+    "array-flatten": false,
+    "events": false,
+    "url": false,
+    "ipaddr.js": false,
+    "mime": false
+}
 }
