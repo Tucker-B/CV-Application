@@ -29,7 +29,9 @@ module.exports = {
         extensions: ['.js', '.jsx']
     },
     target: 'web',
-    node: {
-        fs: 'empty',
-    }
+    resolve: {
+        fallback: {
+            fs: false,
+        }
+    },
 }
