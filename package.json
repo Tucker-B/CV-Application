@@ -1,0 +1,19 @@
+{
+  "name": "cv-project",
+  "version": "1.0.0",
+  "description": "My website to introduce myself to potential employers and others interested in my work.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tucker-B/CV-Application.git"
+  },
+  "author": "Tucker Barton",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Tucker-B/CV-Application/issues"
+  },
+  "homepage": "https://github.com/Tucker-B/CV-Application#readme"
+}
