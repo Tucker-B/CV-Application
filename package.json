@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "heroku-prebuild": "cd frontend && npm install && npm run build && cd backend && npm install",
+    "devStart": "node backend/bin/www",
     "start": "cd backend && node ./bin/www"
   },
   "repository": {
