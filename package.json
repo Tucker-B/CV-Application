@@ -4,7 +4,8 @@
   "description": "My website to introduce myself to potential employers and others interested in my work.",
   "main": "index.js",
   "scripts": {
-    "start": "node backend/bin/www"
+    "heroku-prebuild": "cd frontend && npm install && npm run build && cd backend && npm install",
+    "start": "cd backend && node ./bin/www"
   },
   "repository": {
     "type": "git",
