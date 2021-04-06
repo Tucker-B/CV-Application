@@ -14,5 +14,8 @@ app.use(cors());
 app.use(express.static(path.join(__dirname, '../frontend/dist')));
 
 app.use('/', indexRouter);
+app.use('/about', aboutRouter);
+app.use('/work', workRouter);
+app.use('/contact', contactRouter);
 
 module.exports = app;
