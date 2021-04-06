@@ -24,13 +24,9 @@ class Index extends React.Component {
 
                         <p>I am currently learning technologies such as <i>ReactJS</i>, <i>ExpressJS</i>, and <i>Node</i>, while also continually improving by looking to industry-wide best practices.</p>
                     </div>
-
-                    <button>My Résumé</button>
-                
                 </div>
                 <Footer />
             </div>
-            
         )
     }
 }

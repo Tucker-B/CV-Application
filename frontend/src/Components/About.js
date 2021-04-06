@@ -3,6 +3,7 @@ import Header from './Core/Header';
 import Footer from './Core/Footer';
 
 class About extends React.Component {
+    
     constructor(props) {
         super(props);
     }
