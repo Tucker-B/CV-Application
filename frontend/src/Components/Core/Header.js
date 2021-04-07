@@ -10,11 +10,10 @@ class Header extends React.Component {
     render() {
         return(
             <header id="header">
-                <h1>Tucker Barton</h1>
-                <span>
-                    <h3 id="headerDescription">Web Developer & Language Learner</h3>
+                <h1 className="text-center">Tucker Barton</h1>
+                <div className="row navInline">
                     <NavBar />
-                </span>
+                </div>
             </header>
         )
     }

@@ -7,7 +7,6 @@ var aboutRouter = require('./routes/about');
 var workRouter = require('./routes/work');
 var contactRouter = require('./routes/contact');
 
-
 var app = express();
 
 app.use(cors());

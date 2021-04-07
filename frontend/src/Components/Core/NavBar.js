@@ -12,12 +12,12 @@ class NavBar extends React.Component {
 
     render() {
         return(
-            <div id="navBar">
-                <ul>
-                    <li><Link to="/">Home</Link></li>
-                    <li><Link to="/about">About</Link></li>
-                    <li><Link to="/work">My Work</Link></li>
-                    <li><Link to="/contact">Contact</Link></li>
+            <div className="navbar lessPM">
+                <ul className="mx-auto content-center">
+                    <li className="nav-item"><Link to="/">Home</Link></li>
+                    <li className="nav-item"><Link to="/about">About</Link></li>
+                    <li className="nav-item"><Link to="/work">My Work</Link></li>
+                    <li className="nav-item"><Link to="/contact">Contact</Link></li>
                 </ul>
             </div>
         )
