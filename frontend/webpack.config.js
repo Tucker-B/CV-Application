@@ -53,6 +53,7 @@ module.exports = {
         contentBase: path.join(__dirname, 'dist'),
         compress: true,
         port: 8080,
+        historyApiFallback: true,
       },
     target: 'web',
 }

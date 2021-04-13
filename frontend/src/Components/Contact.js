@@ -13,12 +13,12 @@ class Contact extends React.Component {
         return (
             <div id="container">
                 <Header />
-                <div class="content">
+                <div className="content">
                     <div className="contact-info">
                         <h3 className="text-center display-6">Ways to Contact Me</h3>
-                        <div class="svg-container">
+                        <div className="svg-container">
                             <p className="text-center contact-info contact-content">
-                                Phone: (678)739-7666
+                                Phone: (678) 739-7666
                                 {/* <svg className="inline"  width="fill" height="fill" fill="fillColor">
                                     <use xlinkHref={`${bootstrapIcons}#telephone`}></use>
                                 </svg> */}

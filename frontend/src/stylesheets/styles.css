@@ -30,7 +30,7 @@
 
 #bodyDiv {
     padding-top: 1px;
-    height: 75vh;
+    height: 50em;
     margin-top: 20px;
     /* margin-bottom: 20px; */
     text-align: center;
@@ -41,6 +41,12 @@
     margin-left: 20%;
     margin-right: 20%;
     font-size: 20px;
+}
+
+#nihon-kawa {
+    /* border-color: black;
+    border-width: 1px;
+    border-style: solid; */
 }
 
 h1 {
