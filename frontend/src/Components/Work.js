@@ -19,14 +19,14 @@ class Work extends React.Component {
                     <div id="cv-application" class="text-center col-sm">
                         <a href="https://github.com/Tucker-B/CV-Application">
                             <h3>CV Application | Personal Site</h3>
-                            <img src={Code_Pic} width="300px" height="200px"></img>
+                            <img src={Code_Pic} className="shadow rounded" width="300px" height="200px"></img>
                         </a>
                         
                     </div>
                     <div id="nihon-kawa" class="text-center col-sm">
                         <a href="https://github.com/Tucker-B/nihon_kawa">
                             <h3>Nihon Kawa | Japanese Blog</h3>
-                            <img src={Blog_Pic} width="300px" height="200px"></img>
+                            <img src={Blog_Pic} className="shadow rounded"width="300px" height="200px"></img>
                         </a>
                         
                     </div>

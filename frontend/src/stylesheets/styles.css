@@ -22,6 +22,12 @@
     padding: 25px;
 }
 
+.about-content {
+    margin: 0 auto;
+    text-align: center;
+    width: 25%;
+}
+
 .content {
     background-color: #efefef;
     width: auto;
@@ -113,7 +119,7 @@ b {
 
 #footerParagraph {
     margin-top: 0px;
-    padding-top: 10px;
+    padding-top: 2em;
 }
 
 footer {
