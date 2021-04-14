@@ -49,6 +49,11 @@
     font-size: 20px;
 }
 
+.aboutContentDiv {
+    font-size: 20px;
+    line-height: 30px;
+}
+
 #nihon-kawa {
     /* border-color: black;
     border-width: 1px;
@@ -71,9 +76,16 @@ h2 {
 
 h3 {
     font-size: 25px;
+}
+
+.h3-padded {
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 25px;
+}
+
+#about-h3 {
+    margin-top: 30px;
 }
 
 .indexP {

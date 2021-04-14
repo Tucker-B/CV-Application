@@ -15,7 +15,7 @@ class Contact extends React.Component {
                 <Header />
                 <div className="content">
                     <div className="contact-info">
-                        <h3 className="text-center display-6">Ways to Contact Me</h3>
+                        <h3 className="text-center display-6 h3-padded">Ways to Contact Me</h3>
                         <div className="svg-container">
                             <p className="text-center contact-info contact-content">
                                 Phone: (678) 739-7666

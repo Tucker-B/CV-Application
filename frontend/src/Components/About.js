@@ -15,11 +15,11 @@ class About extends React.Component {
             <div id="container">
                 <Header />
                 <div className="content row">
-                    <h3 className="text-center">Hey, I'm Tucker</h3>
+                    <h3 id="about-h3"className="text-center display-6">Hey, I'm Tucker</h3>
                     <div className="col-sm text-center">
                         <img src={Seoul_Pic} className="shadow rounded"width="400px" height="300px"></img>
                     </div>
-                    <div className="about-content col-sm">
+                    <div className="about-content col-sm aboutContentDiv">
                         <p className="" >I'm a student attending the University of Georgia majoring in Japanese. I'm also an avid lover of technology and an aspiring web developer.</p>
                         <br></br>
                         <p className="" >As someone who loves learning and constantly refining myself, I'm currently learning the world of frontend libraries and tech, including React.js & Bootstrap 5. On the backend, I'm continuing my studies of using JavaScript on the server side and am developing this website, as well as <i>Nihon Kawa</i> with ExpressJS.</p>

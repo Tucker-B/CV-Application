@@ -15,10 +15,10 @@ class Index extends React.Component {
                 <Header />
                 <div id="bodyDiv" className="">
                     <h2>ようこそ！</h2>
-                    <h3>Welcome! A little about me... </h3>
+                    <h3 className="h3-padded">Welcome! A little about me... </h3>
                     <div id="paragraphDiv" className="row">
                         <div className="col-md-4">
-                            <img src={personalPhoto} className="img-thumbnail " alt="Picture of Tucker Barton" width="250" height="300"></img>
+                            <img src={personalPhoto} className="img-thumbnail shadow" alt="Picture of Tucker Barton" width="250" height="300"></img>
                         </div>
                         <div className="col-md-8">
                             <p class="indexP">Hi, I'm Tucker! I am an aspiring web developer located in the Metro Atlanta area in the wonderful state of Georgia, US. In addition, I have the great honor of attending the <i>University of Georgia</i> at which I am a senior learning 日本語, or Japanese. </p>
