@@ -15,7 +15,7 @@ class About extends React.Component {
             <div id="container">
                 <Header />
                 <div className="content row">
-                    <h3 id="about-h3"className="text-center display-6">Hey, I'm Tucker</h3>
+                    <h3 id="about-h3"className="text-center display-6 green-text">Hey, I'm Tucker</h3>
                     <div className="col-sm text-center">
                         <img src={Seoul_Pic} className="shadow rounded"width="400px" height="300px"></img>
                     </div>

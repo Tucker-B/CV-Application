@@ -54,6 +54,10 @@
     line-height: 30px;
 }
 
+.green-text {
+    color: #38a61f;
+}
+
 #nihon-kawa {
     /* border-color: black;
     border-width: 1px;
@@ -107,7 +111,7 @@ a:link, a:visited {
 }
 
 a:hover {
-    color: #7181da;
+    color: #41d121;
 }
 
 li {
@@ -135,6 +139,6 @@ b {
 }
 
 footer {
-    background-color:#ff3b3f;
+    background-color: #38a61f;
     padding-bottom: 5px;
 }
