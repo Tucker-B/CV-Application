@@ -5,6 +5,7 @@ import '../stylesheets/about.css';
 import Seoul_Pic from '../../public/imgs/seoul_night_pic.jpeg'
 import Shrine_Pic from '../../public/imgs/japanese_shinto_gates_pic.jpeg'
 import Code_Pic from '../../public/imgs/code_pic_dark.jpeg'
+import Logo from '../../public/imgs/SVG/tb_icon_new.svg';
 
 class About extends React.Component {
     
@@ -30,12 +31,6 @@ class About extends React.Component {
                         <p className="about__description__language" >Language learning is also a passion of mine. I'm currently taking Japanese classes at my university, as well as studying on my own. By the end of the year I hope to take the 日本語能力試験, or the Japanese Language Placement Test (JLPT for short) that is overseen by the Japanese government. I also want to take on Korean next year (Oppa Gangnam Style!)</p>
                         <img src={Seoul_Pic} className=""width="400px" height="300px"></img>
                     </div>
-
-
-                        
-
-                    
-                    
                 </div>
                 <Footer />
             </div>
