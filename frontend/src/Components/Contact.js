@@ -1,7 +1,6 @@
 import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
-import bootstrapIcons from '../../node_modules/bootstrap-icons/bootstrap-icons.svg';
 
 class Contact extends React.Component {
     
@@ -11,13 +10,13 @@ class Contact extends React.Component {
 
     render() {
         return (
-            <div id="container">
+            <div id="main-div" className="contact-component">
                 <Header />
                 <div className="content">
                     <div className="contact-info">
-                        <h3 className="text-center display-6 h3-padded green-text">Ways to Contact Me</h3>
+                        <h3 className="">Ways to Contact Me</h3>
                         <div className="svg-container">
-                            <p className="text-center contact-info contact-content">
+                            <p className="">
                                 <span className="green-text">Phone:</span> (678) 739-7666
                                 {/* <svg className="inline"  width="fill" height="fill" fill="fillColor">
                                     <use xlinkHref={`${bootstrapIcons}#telephone`}></use>
@@ -25,7 +24,7 @@ class Contact extends React.Component {
                             </p>
                         </div>
                         
-                        <address className="text-center contact-info contact-content"><a href="mailto:tuckergbarton@gmail.com"><span className="green-text">Email:</span> tuckergbarton@gmail.com</a></address>
+                        <address className=""><a href="mailto:tuckergbarton@gmail.com"><span className="green-text">Email:</span> tuckergbarton@gmail.com</a></address>
                     </div>
                 </div>
                 <Footer />

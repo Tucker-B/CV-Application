@@ -1,7 +1,7 @@
 import React from 'react';
-import '../../stylesheets/reset.css'
-import '../../stylesheets/styles.css'
-import { Link } from 'react-router-dom'
+import '../../stylesheets/reset.css';
+import '../../stylesheets/styles.css';
+import { Link } from 'react-router-dom';
 
 
 class NavBar extends React.Component {
@@ -12,14 +12,14 @@ class NavBar extends React.Component {
 
     render() {
         return(
-            <div className="navbar lessPM">
-                <ul className="mx-auto content-center">
-                    <li className="nav-item"><Link to="/">Home</Link></li>
-                    <li className="nav-item"><Link to="/about">About</Link></li>
-                    <li className="nav-item"><Link to="/work">My Work</Link></li>
-                    <li className="nav-item"><Link to="/contact">Contact</Link></li>
+            <nav className="header__nav">
+                <ul className="">
+                    <li className="nav-item" id="nav-home"><Link to="/">Home</Link></li>
+                    <li className="nav-item" id="nav-about"><Link to="/about">About</Link></li>
+                    <li className="nav-item" id="nav-work"><Link to="/work">My Work</Link></li>
+                    <li className="nav-item" id="nav-contact"><Link to="/contact">Contact</Link></li>
                 </ul>
-            </div>
+            </nav>
         )
     }
 }

@@ -5,7 +5,6 @@ import {
   Switch,
   Route
 } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Index from './Components/Index';
 import About from './Components/About';
