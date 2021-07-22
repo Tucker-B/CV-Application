@@ -15,9 +15,9 @@ class Contact extends React.Component {
                 <div className="content">
                     <div className="contact-info">
                         <h3 className="">Ways to Contact Me</h3>
-                        <div className="svg-container">
+                        <div className="">
                             <p className="">
-                                <span className="green-text">Phone:</span> (678) 739-7666
+                                <span className="">Phone:</span> (404) 900-8032
                                 {/* <svg className="inline"  width="fill" height="fill" fill="fillColor">
                                     <use xlinkHref={`${bootstrapIcons}#telephone`}></use>
                                 </svg> */}

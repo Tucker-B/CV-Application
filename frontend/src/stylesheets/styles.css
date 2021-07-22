@@ -168,6 +168,40 @@ footer {
     width: 100%;
 }
 
+footer h3 {
+    font-size: 1.5rem;
+}
+
+#footer__links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer__links a {
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+#footer__links a span {
+    margin-right: 1rem;
+}
+
+#footer__links a span:hover {
+    color: hsl(11deg 86% 63%);
+}
+
+#footer__name {
+    display: flex;
+}
+
+#footer__name span {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
 footer h3,
 #footer__links,
 #footer__name {

@@ -1,8 +1,10 @@
 import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
+import '../stylesheets/about.css';
 import Seoul_Pic from '../../public/imgs/seoul_night_pic.jpeg'
 import Shrine_Pic from '../../public/imgs/japanese_shinto_gates_pic.jpeg'
+import Code_Pic from '../../public/imgs/code_pic_dark.jpeg'
 
 class About extends React.Component {
     
@@ -15,21 +17,23 @@ class About extends React.Component {
             <div id="main-div" className="about-component">
                 <Header />
                 <div id="content" className="">
-                    <h3 id="about-h3"className="">Hey, I'm Tucker</h3>
-                    <div className="col-sm text-center">
+                    <h3 id="about__hi"className="">Hey, I'm Tucker</h3>
+                    <div className="about__description">
+                        <p className="about__description__introduction" >Hi! I'm a web developer and student attending the University of Georgia (Go Dawgs!)</p>
+                        <img src={Shrine_Pic} className="" width="400px" height="300px"></img>
+                        <br></br>
+                        <h3 className="about__title">Technology</h3>
+                        <p className="about__description__technology" >As someone who loves learning and constantly refining myself, I'm currently learning the world of frontend libraries and tech, including React.js and UI/UX design principles. On the backend, I'm continuing my studies of using JavaScript/Node.js on the server side by developing this website, as well as my Japanese blog website, <i>Loop Blog</i> with Django/Python!</p>
+                        <img src={Code_Pic} className=""width="400px" height="300px"></img>
+                        <br></br>
+                        <h3 className="about__title">Language</h3>
+                        <p className="about__description__language" >Language learning is also a passion of mine. I'm currently taking Japanese classes at my university, as well as studying on my own. By the end of the year I hope to take the 日本語能力試験, or the Japanese Language Placement Test (JLPT for short) that is overseen by the Japanese government. I also want to take on Korean next year (Oppa Gangnam Style!)</p>
                         <img src={Seoul_Pic} className=""width="400px" height="300px"></img>
                     </div>
-                    <div className="">
-                        <p className="" >I'm a student attending the University of Georgia majoring in Japanese. I'm also an avid lover of technology and an aspiring web developer.</p>
-                        <br></br>
-                        <p className="" >As someone who loves learning and constantly refining myself, I'm currently learning the world of frontend libraries and tech, including React.js & Bootstrap 5. On the backend, I'm continuing my studies of using JavaScript on the server side and am developing this website, as well as <i>Nihon Kawa</i> with ExpressJS.</p>
-                        <br></br>
-                        <p className="" >Language learning is also a passion of mine. I'm currently taking Japanese classes at my university, as well as studying on my own. By the end of the year I hope to take the 日本語能力試験, or the Japanese Language Placement Test (JLPT for short) that is overseen by the Japanese government. Later this year, I'm gonna have a go at Korean as a lover of PSY and Korean tech alike.</p>
-                    </div>
 
-                    <div className="">
-                        <img src={Shrine_Pic} className="" width="400px" height="300px"></img>
-                    </div>
+
+                        
+
                     
                     
                 </div>
