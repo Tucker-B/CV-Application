@@ -14,17 +14,14 @@ class Index extends React.Component {
             <div id="main-div" className="index-component">
                 <Header />
                 <div id="content" className="">
-                    {/* <h2 className="green-text">ようこそ！</h2>
-                    <h3 className="">Welcome! A little about me... </h3> */}
                     <div className="content__introduction">
                         <h2 id="content__introduction__name">Tucker <br></br>Barton</h2>
                         <img id="content__introduction__img"src={personalPhoto} className="" alt="Picture of Tucker Barton" width="250" height="300"></img>
                         <h2 id="content__introduction__role">Web<br></br>Developer</h2>
-
                     </div>
                     <div id="bio-description" className="row">
-                        
                         <div className="bio-description__p-div">
+                            <h3 id="bio-description__yokoso">ようこそ！</h3>
                             <p className="bio-description__p"><span className="green-text">Hi, I'm Tucker!</span> I am an aspiring web developer located in the Metro Atlanta area in the wonderful state of Georgia, US. In addition, I have the great honor of attending the <i className="green-text">University of Georgia</i> at which I am a senior learning 日本語, or Japanese. </p>
 
                             <p className="bio-description__p">I have been interested in computers for as long as I can remember, always tinkering with my gadgets and wondering how things actually worked.</p>

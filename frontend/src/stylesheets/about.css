@@ -28,7 +28,7 @@
     margin: 2rem;
 }
 
-.about-component img {
+.about-component img:not(.header__logo) {
     border-radius: 30px;
     box-shadow: 0 6px 19px hsl(11deg 61% 45%);
     margin-top: 1rem;
