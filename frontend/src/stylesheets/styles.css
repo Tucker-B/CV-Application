@@ -12,6 +12,14 @@ html {
 body {
     background-color: hsl(0deg 0% 13%);
     line-height: 2rem;
+    /* Hide scrollbar for IE, Edge and Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+body::-webkit-scrollbar {
+    display: none; /* */
 }
 
 a {
@@ -128,7 +136,6 @@ body,
     flex-direction: column;
     flex-grow: 1;
     align-items: center;
-    margin: 5rem 20rem;
 }
 
 .content__introduction {
@@ -136,6 +143,7 @@ body,
     display: flex;
     justify-content: space-around;
     margin: 5rem 20rem;
+    margin-bottom: 2rem;
     width: 63rem;
     height: 20rem;
 }
@@ -171,13 +179,15 @@ body,
     align-items: center;
     background-color: #19181873;
     box-shadow: 0 6px 19px hsl(11deg 61% 45%);
+    margin-bottom: 2rem;
     width: 100%;
 }
 
 #bio-description__yokoso {
     align-self: center;
-    color: hsl(11deg 61% 45%);
+    color: hsl(11deg 86% 63%);
     font-size: 3rem;
+    font-weight: bold;
     height: 4rem;
 }
 
@@ -196,6 +206,7 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 2rem;
     width: 100%;
 }
 

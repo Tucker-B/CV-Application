@@ -1,0 +1,41 @@
+.work-component #content {
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+#cv-application a,
+#loop-blog a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#cv-application h3,
+#loop-blog h3 {
+    color: hsl(11deg 86% 63%);
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+
+#cv-application h3:hover,
+#loop-blog h3:hover {
+    color: white;
+}
+
+#cv-application img,
+#loop-blog img {
+    border-radius: 30px;
+    box-shadow: 0 6px 19px hsl(11deg 61% 45%);
+    width: 400px;
+    height: 300px;
+    transform: scale(1.0);
+    transition: 250ms ease-out transform;
+}
+
+#cv-application img:hover,
+#loop-blog img:hover {
+    transform: scale(1.1);
+}
+
