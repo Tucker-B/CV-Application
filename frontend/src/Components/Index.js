@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
+import '../stylesheets/index.css';
 import personalPhoto from '../../public/imgs/front_picture.png';
 
 class Index extends React.Component {
@@ -16,7 +17,9 @@ class Index extends React.Component {
                 <div id="content" className="">
                     <div className="content__introduction">
                         <h2 id="content__introduction__name">Tucker <br></br>Barton</h2>
-                        <img id="content__introduction__img"src={personalPhoto} className="" alt="Picture of Tucker Barton" width="250" height="300"></img>
+                        <div id="content__introduction__img-div">
+                            <img id="content__introduction__img"src={personalPhoto} className="" alt="Picture of Tucker Barton" width="250" height="300"></img>
+                        </div>
                         <h2 id="content__introduction__role">Web<br></br>Developer</h2>
                     </div>
                     <div id="bio-description" className="row">
@@ -29,6 +32,7 @@ class Index extends React.Component {
                             <p className="bio-description__p">When I learned of the world of software development, I immediately knew that was what my career going forward would be.</p>
 
                             <p className="bio-description__p">I am currently learning technologies such as <i className="green-text">ReactJS</i>, <i className="green-text">ExpressJS</i>, and <i className="green-text">Node</i>, while also continually improving by looking to industry-wide best practices.</p>
+
                         </div>
                         
                     </div>

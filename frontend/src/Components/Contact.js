@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
+import '../stylesheets/contact.css';
 
 class Contact extends React.Component {
     
@@ -17,14 +18,11 @@ class Contact extends React.Component {
                         <h3 className="">Ways to Contact Me</h3>
                         <div className="">
                             <p className="">
-                                <span className="">Phone:</span> (404) 900-8032
-                                {/* <svg className="inline"  width="fill" height="fill" fill="fillColor">
-                                    <use xlinkHref={`${bootstrapIcons}#telephone`}></use>
-                                </svg> */}
+                                <span className="orange-text">Phone:</span> (404) 900-8032
                             </p>
                         </div>
                         
-                        <address className=""><a href="mailto:tuckergbarton@gmail.com"><span className="green-text">Email:</span> tuckergbarton@gmail.com</a></address>
+                        <address className=""><a href="mailto:tuckergbarton@gmail.com"><span className="orange-text">Email:</span> tuckergbarton@gmail.com</a></address>
                     </div>
                 </div>
                 <Footer />

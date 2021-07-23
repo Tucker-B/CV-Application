@@ -1,0 +1,121 @@
+@media(max-width: 1050px) {
+    .bio-description__p-div {
+        margin-left: 10rem;
+        margin-right: 10rem;
+    }
+
+    .bio-description__p {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 850px) {
+    .content__introduction {
+    }
+
+    #content__introduction__name {
+        font-size: 4.5rem;
+    }
+    #content__introduction__role {
+        font-size: 3.2rem;
+    }
+
+    #content__introduction__img {
+
+    }
+}
+
+@media (max-width: 750px) {
+
+    #content__introduction__name {
+        font-size: 3.6rem;
+    }
+    #content__introduction__role {
+        font-size: 2.5rem;
+    }
+
+    #content__introduction__img {
+        
+        
+    }
+
+    .bio-description__p-div {
+    }
+}
+
+@media (max-width: 600px) {
+    .content__introduction {
+        justify-content: center;
+        margin: 0;
+    }
+
+    #content__introduction__name {
+        font-size: 3.5rem;
+        margin-right: 2rem;
+    }
+
+    #content__introduction__role {
+        font-size: 2.5rem;
+        margin-right: 2rem;
+    }
+
+    #content__introduction__name,
+    #content__introduction__role {
+        line-height: 4rem;
+    }
+
+    #content__introduction__img-div {
+        display: none;
+    }
+
+    .bio-description__p-div {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    #content__introduction__name {
+        font-size: 2.5rem;
+        margin-right: 0.5rem;
+    }
+
+    #content__introduction__role {
+        font-size: 2rem;
+        margin-right: 1.5rem;
+    }
+
+    #content__introduction__name,
+    #content__introduction__role {
+        line-height: 3rem;
+    }
+}
+
+@media (max-width: 380px) {
+    #content__introduction__name {
+        margin-left: 1rem;
+    }
+
+    #content__introduction__role {
+        margin-right: 1rem;
+    }
+
+    .bio-description__p-div {
+        font-size: 1.3rem;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .nav-item {
+        margin-left: 0;
+    }
+
+    #content__introduction__name {
+        font-size: 2rem;
+    }
+
+    #content__introduction__role {
+        font-size: 1.5rem;
+    }
+}
