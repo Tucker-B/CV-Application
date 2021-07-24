@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
 import '../stylesheets/index.css';
-import personalPhoto from '../../public/imgs/front_picture.png';
+const personalPhoto = 'https://personal-site-imgs.s3.amazonaws.com/imgs/front_picture.png';
 
 class Index extends React.Component {
 
@@ -34,7 +34,6 @@ class Index extends React.Component {
                             <p className="bio-description__p">I am currently learning technologies such as <i className="green-text">React.js</i>, <i className="green-text">Express.js</i>, and <i className="green-text">Node</i>, while also continually improving by looking to leading developers and thinkers of the industry.</p>
 
                         </div>
-                        
                     </div>
                 </div>
                 <Footer />

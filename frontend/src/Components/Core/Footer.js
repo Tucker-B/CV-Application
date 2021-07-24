@@ -1,5 +1,6 @@
 import React from 'react';
-import svgs from '../../../public/imgs/sprite.svg';
+const github_svg = 'https://personal-site-imgs.s3.amazonaws.com/imgs/SVG/github.svg';
+const linkedin_svg = 'https://personal-site-imgs.s3.amazonaws.com/imgs/SVG/linkedin.svg';
 
 class Footer extends React.Component {
 
@@ -14,15 +15,11 @@ class Footer extends React.Component {
                 <div id="footer__links">
                     <a href="https://github.com/Tucker-B/">
                         <span>@Tucker-B</span>
-                        <svg class="index__icon">
-                            <use xlinkHref={svgs + '#icon-github'}></use>
-                        </svg>
+                        <img src={github_svg} className="footer-svgs"></img>
                     </a>
                     <a href="https://www.linkedin.com/in/tucker-barton/">
                         <span>@tucker-barton</span>
-                        <svg class="index__icon">
-                            <use xlinkHref={svgs + '#icon-linkedin'}></use>
-                        </svg>
+                        <img src={linkedin_svg} className="footer-svgs"></img>
                     </a>
                 </div>
                 <div id="footer__name">

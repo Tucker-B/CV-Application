@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from './NavBar';
-import Logo from '../../../public/imgs/SVG/tb_icon_new.svg';
+const Logo = 'https://personal-site-imgs.s3.amazonaws.com/imgs/SVG/tb_icon_new.svg';
 
 class Header extends React.Component {
 

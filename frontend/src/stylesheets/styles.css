@@ -31,6 +31,7 @@ li {
     list-style: none;
 }
 
+.footer-svgs,
 svg {
     fill: hsl(11deg 86% 63%);
     width: 2rem;
