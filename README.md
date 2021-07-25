@@ -1,2 +1,2 @@
-<img src="https://personal-site-imgs.s3.amazonaws.com/imgs/screencapture-tuckerbarton-dev.png"
+<img src="https://loopblog-images.s3.amazonaws.com/screencapture-tuckerbarton-dev_new.png"
      alt="Picture of Website" />
