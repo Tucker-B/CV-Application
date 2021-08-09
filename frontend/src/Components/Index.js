@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
 import '../stylesheets/index.css';
-const personalPhoto = 'https://personal-site-imgs.s3.amazonaws.com/imgs/front_picture.png';
+const personalPhoto = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/front_picture.png';
 
 class Index extends React.Component {
 
