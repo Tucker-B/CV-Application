@@ -2,8 +2,8 @@ import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
 import '../stylesheets/work.css';
-const Blog_Pic = 'https://personal-site-imgs.s3.amazonaws.com/imgs/japanese_writing_pic.jpeg';
-const Code_Pic = 'https://personal-site-imgs.s3.amazonaws.com/imgs/code_2.jpeg';
+const Blog_Pic = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/japanese_writing_pic.jpeg';
+const Code_Pic = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/code_2.jpeg';
 
 class Work extends React.Component {
     

@@ -2,9 +2,9 @@ import React from 'react';
 import Header from './Core/Header';
 import Footer from './Core/Footer';
 import '../stylesheets/about.css';
-const Seoul_Pic = 'https://personal-site-imgs.s3.amazonaws.com/imgs/seoul_night_pic.jpeg'
-const Shrine_Pic = 'https://personal-site-imgs.s3.amazonaws.com/imgs/japanese_shinto_gates_pic.jpeg'
-const Code_Pic = 'https://personal-site-imgs.s3.amazonaws.com/imgs/code_pic_dark.jpeg'
+const Seoul_Pic = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/seoul_night_pic.jpeg'
+const Shrine_Pic = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/japanese_shinto_gates_pic.jpeg'
+const Code_Pic = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/code_pic_dark.jpeg'
 
 class About extends React.Component {
     

@@ -1,6 +1,6 @@
 import React from 'react';
-const github_svg = 'https://personal-site-imgs.s3.amazonaws.com/imgs/SVG/github.svg';
-const linkedin_svg = 'https://personal-site-imgs.s3.amazonaws.com/imgs/SVG/linkedin.svg';
+const github_svg = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/SVG/github.svg';
+const linkedin_svg = 'https://d1thzj1j2dn3e9.cloudfront.net/imgs/SVG/linkedin.svg';
 
 class Footer extends React.Component {
 

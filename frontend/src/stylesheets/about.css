@@ -53,6 +53,10 @@
     display: inline;
 }
 
+.footer-svgs {
+    margin-top: 0 !important;
+}
+
 @media (max-width: 1000px) {
     .about__description {
         margin-left: 10rem;
