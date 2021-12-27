@@ -20,7 +20,7 @@ class About extends React.Component {
                     <h3 id="about__hi"className="">Hey, I'm Tucker</h3>
                     <div className="about__description">
 
-                        <p className="about__description__introduction" >Hi! I'm a web developer and student attending the University of Georgia (Go Dawgs!)</p>
+                        <p className="about__description__introduction" >Hi! I'm a Software Engineer and recent graduate of the University of Georgia (Go Dawgs!)</p>
                         <img src={Shrine_Pic} className="" width="400px" height="300px"></img>
                         <br></br>
 
@@ -30,7 +30,7 @@ class About extends React.Component {
                         <br></br>
 
                         <h3 className="about__title">Language</h3>
-                        <p className="about__description__language" >Language learning is also a passion of mine. I'm currently taking Japanese classes at my university, as well as studying on my own. By the end of the year I hope to take the 日本語能力試験, or the Japanese Language Placement Test (JLPT for short) that is overseen by the Japanese government. I also want to take on Korean next year (Oppa Gangnam Style!)</p>
+                        <p className="about__description__language" >Language learning is also a passion of mine. I've taken numerous Japanese classes while attending university, as well as studying on my own. By the end of 2022 I hope to take the 日本語能力試験, or the Japanese Language Placement Test (JLPT for short) that is overseen by the Japanese government. I am also interested in learning Mandarin Chinese (我喜欢中国)!</p>
                         <img src={Seoul_Pic} className=""width="400px" height="300px"></img>
                         <br></br>
 

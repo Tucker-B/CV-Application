@@ -25,7 +25,7 @@ class Index extends React.Component {
                     <div id="bio-description" className="row">
                         <div className="bio-description__p-div">
                             <h3 id="bio-description__yokoso">ようこそ！</h3>
-                            <p className="bio-description__p"><span className="green-text">Hi, I'm Tucker!</span> I am a web developer located in the Metro Atlanta area in the wonderful state of Georgia, US. I am attending the <i className="green-text">University of Georgia</i> at which I am a senior learning Japanese. I will be graduating this fall of 2021! </p>
+                            <p className="bio-description__p"><span className="green-text">Hi, I'm Tucker!</span> I am a Software Engineer located in the Metro Atlanta area in the wonderful state of Georgia, US. I am also a recent graduate of the <i className="green-text">University of Georgia</i> at which I studied various subjects, ranging from Computer Science to Japanese. I am open to all Software Engineering opportunities! </p>
 
                             <p className="bio-description__p">I have been interested in computers for as long as I can remember, always tinkering with my surroundings and wondering how things actually worked.</p>
 
